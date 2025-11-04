@@ -4,7 +4,7 @@ echo "<h1>Conexión a PostgreSQL desde PHP</h1>";
 $host = "192.168.56.11"; // IP de la máquina DB
 $dbname = "tallerdb";
 $user = "postgres";
-$password = ""; // sin contraseña
+$password = ""; 
 
 $conn = pg_connect("host=$host dbname=$dbname user=$user password=$password");
 
